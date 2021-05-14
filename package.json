@@ -1,0 +1,27 @@
+{
+  "name": "hua-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "huacli": "./bin/cli.js",
+    "huacli-add": "./bin/cli-add.js",
+    "huacli-delete": "./bin/cli-delete.js",
+    "huacli-list": "./bin/cli-list.js",
+    "huacli-init": "./bin/cli-init.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0",
+    "rimraf": "^3.0.2"
+  }
+}
