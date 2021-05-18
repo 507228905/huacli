@@ -1,1 +1,4 @@
-{"simple-tpl":"https://github.com/echofly/simple-tpl.git","KVue":"https://github.com/507228905/KVue.git"}
+{
+  "simple-tpl": "https://github.com/echofly/simple-tpl.git",
+  "KVue": "https://github.com/507228905/template.git"
+}
